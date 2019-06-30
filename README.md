@@ -1,1 +1,1 @@
-# JS-Courses
+# JS-Courses testing repository
