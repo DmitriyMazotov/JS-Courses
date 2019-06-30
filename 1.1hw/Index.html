@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <form name="test" method="post" action="input1.php">
+        <fieldset>
+            <legend>Регистрация</legend>
+            <p><input type="text" name="login" placeholder="Логин"></p>
+            <p><input type="password" name="pass" placeholder="Пароль"></p>
+            <p><input type="submit" value="Ok"></p>
+        </fieldset>
+        <div class="secondBlock">
+            <p>Ваше имя:
+                <input type="text" size="40" name="nick">
+            </p>
+        </div>
+        <div class="thirdBlock">
+            <p>Дата рождения:
+                <input type="datetime-local" name="borndate">
+            </p>
+        </div>
+        <div class="fourBlock">
+            <p>Каким браузером в основном пользуетесь:</p>
+            <input type="checkbox" name="browser" value="ie"> Internet Explorer<Br>
+            <input type="checkbox" name="browser" value="opera"> Opera<Br>
+            <input type="checkbox" name="browser" value="firefox"> Firefox<Br>
+            <input type="checkbox" name="browser" value="chrome"> Chrome<Br>
+            <input type="checkbox" name="browser" value="safari"> Safari<Br>
+
+        </div>
+        <div class="fifthBlock">
+            <p>Комментарий<br>
+                <textarea name="comment" cols="40" rows="5"></textarea></p>
+            <p><input type="submit" value="Отправить">
+                <input type="reset" value="Очистить"></p>
+        </div>
+    </form>
+
+    <script src="js/app.js"></script>
+
+</body></html>
